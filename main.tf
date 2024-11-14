@@ -17,8 +17,8 @@ locals {
 // Random Suffix Generator
 
 resource "random_integer" "deployment_id_suffix" {
-  min = 100
-  max = 999
+  min = 10
+  max = 99
 }
 
 // Resource Group
